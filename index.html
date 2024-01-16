@@ -1,3 +1,4 @@
+import { apiKey } from './api.js'
 <!DOCTYPE html>
 <html>
     <head>
@@ -37,8 +38,8 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="api.js"></script>
         <script>
-            const apiKey = "0aadaf8152c9d02beb0de48e50d05a9b"
             const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
             const searchBox = document.querySelector(".search input")
             const searchBtn = document.querySelector(".search button")
